@@ -32,7 +32,8 @@
 	    	    "wpackagist-theme/nova-lite": "*",
 	    
 		"dzuelke/twentyfifteen-child": "*",
-		"wpackagist-plugin/password-protected": "^2.1"
+		"wpackagist-plugin/password-protected": "^2.1",
+		"automattic/jetpack": "^6.0"
 	},
 	"scripts": {
 		"wordpress-setup-core-install-prompt": "wp core install --prompt",

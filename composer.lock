@@ -4,9 +4,41 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5cbc4b23e0e06b288e2434789a1f509f",
-    "content-hash": "41f2cc04858160d50af5879d2fa41d50",
+    "hash": "5a15f0093c475cc12a4e6f5eb15a5444",
+    "content-hash": "0acee000175ddc76f64a1d38b867a104",
     "packages": [
+        {
+            "name": "automattic/jetpack",
+            "version": "6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Automattic/jetpack.git",
+                "reference": "a1b8ad9f906f3c83154b90238515595861b2ed09"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Automattic/jetpack/zipball/a1b8ad9f906f3c83154b90238515595861b2ed09",
+                "reference": "a1b8ad9f906f3c83154b90238515595861b2ed09",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
+                "sirbrillig/phpcs-variable-analysis": "^2.0",
+                "wimg/php-compatibility": "^8.1",
+                "wp-coding-standards/wpcs": "^0.14.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Jetpack supercharges your self‑hosted WordPress site with the awesome cloud power of WordPress.com",
+            "homepage": "http://jetpack.com/",
+            "time": "2018-04-03 14:51:45"
+        },
         {
             "name": "composer/ca-bundle",
             "version": "1.1.1",
